@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backgr"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="BỐC BI"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/meobeohelper" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Made by meobeo"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/n_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số viên bi lúc đầu"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/k_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số viên bi tối đa mỗi lần bốc"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/t_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ai là người đi trước (0 - máy / 1 - bạn)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        app:backgroundTint="@null"
+        android:text="Bắt đầu chơi" />
+
+    <EditText
+        android:id="@+id/user_input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số viên bạn bốc"
+        android:inputType="number" />
+    <TextView
+        android:id="@+id/your_turn_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lượt của bạn"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/machine_turn_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lượt của máy"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/user_move_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        app:backgroundTint="@null"
+        android:text="Đi" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>
+</ScrollView>

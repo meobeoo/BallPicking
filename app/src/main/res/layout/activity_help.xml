@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/backgr"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="GIỚI THIỆU TRÒ CHƠI"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Made by meobeo"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bốc bi là một trò chơi thú vị và hấp dẫn, đòi hỏi sự suy nghĩ chiến thuật và khéo léo. Trò chơi này thường được chơi với một số viên bi được xếp thành một hàng. Hai người chơi sẽ lần lượt bốc các viên bi từ hàng đó, với mỗi lượt chỉ được bốc một số bi nhất định."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        Mục tiêu của trò chơi là tránh bốc được những viên bi cuối cùng. Người chơi nào bốc được viên bi cuối cùng sẽ là người thắng cuộc."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="        Cách chơi:"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bước 1: Xác định số viên bi ban đầu: Trước khi bắt đầu, người chơi lựa chọn số lượng viên bi ban đầu."
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bước 2: Xác định số lượng bi tối đa mỗi lượt được bốc: Người chơi chọn số lượng bi tối đa mà mỗi người có thể bốc trong mỗi lượt.
+"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bước 3: Xác định người chơi đi trước: Người chơi cần quyết định ai sẽ là người chơi đầu tiên.
+"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bước 4: Lượt chơi: Hai người chơi sẽ lần lượt bốc các viên bi từ hàng bi. Mỗi người chơi chỉ được bốc một số bi nhất định, không vượt quá số lượng bi tối đa mỗi lượt.
+"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Bước 5: Kết thúc trò chơi: Trò chơi kết thúc khi không còn bi nào trong hàng bi. Người chơi nào bốc được viên bi cuối cùng sẽ là người thắng cuộc.
+"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Trò chơi Bốc bi đòi hỏi người chơi phải có sự nhạy bén trong việc tính toán và dự đoán đối thủ. Bằng cách suy nghĩ chiến thuật và khéo léo, bạn có thể đạt được chiến thắng trong trò chơi này.
+"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Hãy tham gia trò chơi Bốc bi và thể hiện khả năng suy luận của bạn!"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</ScrollView>
